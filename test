@@ -1,4 +1,6 @@
+#include <stdlib.h>
 #include <stdio.h>
+
 void main(void)
 { int cpt ; // compteur
  printf ("je vais compter jusqu'à quatre:\n") ;
@@ -9,5 +11,5 @@ void main(void)
  cpt = cpt+1 ;
  printf("%d\n", cpt) ;
  cpt += 1 ;
- printf('%d\n') ;
+ printf("%d\n", cpt) ;
 }
