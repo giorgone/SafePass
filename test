@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main(void)
+{ int cpt ; // compteur
+ printf ("je vais compter jusqu'à trois:\n") ;
+ cpt =1 ; // initialisation
+ printf("%d\n", cpt) ;
+ cpt = cpt+1 ;
+ printf("%d\n", cpt) ;
+ cpt = cpt+1 ;
+ printf("%d\n", cpt) ;
+}
